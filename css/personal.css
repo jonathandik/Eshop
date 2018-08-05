@@ -1,0 +1,60 @@
+h1 {
+    color: blue;
+    margin-left:19%;    
+}
+
+/*The following classes have been initialised to make stable the position of each element.*/
+table.one {    
+    float:left;
+    padding:20px;
+    margin-left:18%;  	   
+}
+
+table.two   {
+    width:48%;
+    float:left;
+}​
+
+#links {
+   min-height:100%;
+   position:relative;
+}
+#footerAlignment {
+   height: 100%;
+   padding-bottom:25%;
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   margin-top:5%
+}
+.bottom-left {
+  position: fixed;
+  margin-top: 31%;
+  left: 20%;
+}
+
+.welcome {  
+  font-size: 20px;
+}
+
+/*The following classes add style to links.*/
+a.welcome:link, a.welcome:visited {
+  text-decoration: none;
+}
+
+a.welcome:focus {
+  text-decoration: none;
+  color: red;
+}
+
+a.welcome:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+a.welcome:active {
+  text-decoration: none;
+  color: #45a049;
+}

@@ -1,0 +1,36 @@
+h1,h3 {
+	color:blue;
+	margin-left:20%;
+	margin-top:3%;
+}
+
+table {
+    border-collapse: collapse;
+	border: 1px solid blue;
+	margin-top:3%;
+}
+
+table,th, td {
+	margin-left:20%;	
+	padding:5px;    
+	color:blue;
+	text-align:center;		
+}
+
+a.cart:link {
+	text-decoration: none;
+}
+
+a.cart:visited {
+    text-decoration: none;	
+}
+
+a.cart:hover {
+    text-decoration: underline;
+	color: red;
+}
+
+a.cart:active {
+    text-decoration: underline;
+	color: #45a049;
+}

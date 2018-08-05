@@ -1,0 +1,54 @@
+.prodDiv {	
+	margin-left:13%;
+	font-size: 22px;
+}
+
+.prodTable {
+	margin-top:3%;
+	color:darkblue;
+	
+}
+
+.productsDetails {
+	color: blue;
+}
+
+a.productsDetails:link {
+	text-decoration: none;
+}
+
+a.productsDetails:visited {
+    text-decoration: none;	
+}
+
+a.productsDetails:hover {
+    text-decoration: underline;
+	color: red;
+}
+
+a.productsDetails:active {
+    text-decoration: underline;
+	color: #45a049;
+}
+
+.productsHeaders {
+	color: darkblue;	
+}
+
+a.productsHeaders:link {
+	text-decoration: none;
+}
+
+a.productsHeaders:visited {
+    text-decoration: none;	
+}
+
+a.productsHeaders:hover {
+    text-decoration: underline;
+	color: red;
+}
+
+a.productsHeaders:active {
+    text-decoration: underline;
+	color: #45a049;
+}

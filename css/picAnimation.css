@@ -1,0 +1,26 @@
+#animatedPicture {
+  position: relative;
+  width: 400px;  
+  height: 300px;
+  overflow: hidden;
+}
+
+#photo {
+	position: absolute;	
+	left: -400px;
+    height: 0px;
+    width: 0px;
+}
+
+#caption {
+	text-align:center;
+	position: absolute;
+	width: 	340px;
+	background-color: blue;
+	color:white;
+	bottom: 30px;
+	left: 24px;
+	padding: 5px;
+	border: 1px solid white;
+	display: none;	
+}

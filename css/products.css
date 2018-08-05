@@ -1,0 +1,48 @@
+h1,h2,h3,h4,h5 {
+	color: blue;	
+	text-align:left;
+	margin-left:17%;
+}
+
+select {
+	color: blue;
+	margin-left:5%;
+}
+
+input[type=submit] {  	
+    background-color: blue;	
+    color: white;
+    padding: 14px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.products {	
+	color:blue;
+	font-size:20px;
+	margin-right:5%;
+}
+
+a.products:link {
+	text-decoration: none;
+}
+
+a.products:visited {
+    text-decoration: none;	
+}
+
+a.products:hover {
+    text-decoration: underline;
+	color: red;
+}
+
+a.products:active {
+    text-decoration: underline;
+	color: #45a049;
+}

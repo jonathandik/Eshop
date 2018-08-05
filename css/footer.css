@@ -1,0 +1,27 @@
+.footer {
+	width:100%;margin-right:auto; margin-left:auto; background:#D3D3D3;	
+}
+.rating {
+	 margin-left:47%; 
+}
+.rating .btnDislike {
+	background: url(cssImages/yesnoimg1.png) no-repeat -31px 0px;float: left;height: 40px;width: 30px;cursor:pointer; 
+}
+.rating .btnDislike:hover {
+	background: url(cssImages/yesnoimg2.png) no-repeat -31px -1px; height: 40px;
+}
+.rating .btnLike {
+	background: url(cssImages/yesnoimg1.png) no-repeat; float:left; height:40px; width:30px; cursor:pointer; margin-top:0px; 
+}
+.rating .btnLike:hover {
+	background: url(cssImages/yesnoimg2.png) no-repeat 0px -1px; height: 40px;
+}
+.btnRating {
+	float:left;margin-right:5px; 
+}
+.btnRating span {
+	font-size: 22px;float: left; margin-left: 3px; 
+}
+p {
+	display:inline-block; margin-right:auto; margin-left: -100.00%;
+}

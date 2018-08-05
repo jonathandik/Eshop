@@ -1,0 +1,43 @@
+img	
+			{
+			display: block;
+			margin-left: auto;
+			margin-right: auto; 
+			border:4px double;
+			}
+	
+#image_id		{			
+			clear:both;
+			text-align: center;
+			font-style: italic;
+			margin-right: 80%;
+			margin-left: 20%;
+			}
+	
+#submenu	{			
+			text-align: center;
+			background: #7B68EE;					
+			color: white;
+			float: left;											
+			}
+
+#submenu ul		{			
+			list-style: none;
+			}
+			
+#submenu li 		{			
+			float: left;
+			position: relative;
+		    }	
+
+#submenu a 		{			
+			text-decoration:none;
+			padding:0.2em 0.6em;
+			border-right:1px solid white;
+			color: white;
+			}
+
+#submenu a:hover 	{
+	color: red;
+    background: white;
+}

@@ -1,0 +1,19 @@
+﻿h1 {
+	color:blue;
+}
+
+h2 {
+	background: url(cssImages/open.png) no-repeat 0 11px;
+	padding: 10px 0 0 25px;
+	cursor: pointer;
+	color:blue;
+}
+
+h2.close {
+	background-image: url(cssImages/close.png);
+}
+
+.prod_description {
+	margin-left: 25px;
+	 color:blue;
+}

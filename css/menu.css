@@ -1,0 +1,12 @@
+body {
+    background-color: powderblue;
+}
+
+.welcome {
+    color: white;
+	font-size: 20px;
+}
+
+p {
+    color:red; 
+}

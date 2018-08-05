@@ -1,0 +1,57 @@
+.error {
+	color: #FF0000;
+}
+
+h1,h2,h3,h4,h5 {
+	color: blue;	
+	text-align:left;
+	margin-left:17%;
+}
+
+table {   
+    color: blue;
+	margin-left:17%;
+	font-size: 20px;
+}
+
+input[type="text"], input[type="password"], select {
+	color: blue;
+}
+
+input[type=submit] {  	
+    background-color: blue;
+    color: white;
+    padding: 14px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+a.register:link {
+	text-decoration: none;
+}
+
+a.register:visited {
+    text-decoration: none;	
+}
+
+a.register:hover {
+    text-decoration: underline;
+	color: red;
+}
+
+a.register:active {
+    text-decoration: underline;
+	color: #45a049;
+}
+
+.login {
+	font-size:16px;
+	color: blue;
+	margin-left:17%;		
+}

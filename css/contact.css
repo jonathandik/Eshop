@@ -1,0 +1,17 @@
+a.contact:link {
+	text-decoration: none;
+}
+
+a.contact:visited {
+    text-decoration: none;	
+}
+
+a.contact:hover {
+    text-decoration: underline;
+	color: red;
+}
+
+a.contact:active {
+    text-decoration: underline;
+	color: #45a049;
+}

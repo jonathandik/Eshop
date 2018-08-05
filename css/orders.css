@@ -1,0 +1,108 @@
+.error {
+	color: #FF0000;
+}
+
+h1,h3,h4{
+	color:blue;
+	margin-left:60%;
+	margin-top:3%;
+}
+
+.userInfo{
+	color:blue;
+	margin-left:20%;
+	position:fixed;
+	margin-top:-4%;
+}
+
+/*showcart.php table mark-up*/
+.tableCart {
+    border-collapse: collapse;
+	border: 1px solid blue;
+	margin-top:2%;
+	margin-left:30%;	
+	padding:5px;   
+	color:blue;
+	text-align:center;		
+}
+
+/*checkout.php tables mark-up*/
+.tableOne {
+	float:left;
+    border-collapse: collapse;
+	border:1px solid blue;
+	width:30%;
+	
+	margin-left:50%;	
+	padding:5px;    
+	color:blue;
+	text-align:center;		
+}
+
+.tableTwo {	   
+	width:20%;
+	
+	margin-left:20%;
+	position:fixed;
+	padding:5px;    
+	color:blue;	
+	
+}
+
+a.cart:link {
+	text-decoration: none;
+}
+
+a.cart:visited {
+    text-decoration: none;	
+}
+
+a.cart:hover {
+    text-decoration: underline;
+	color: red;
+}
+
+a.cart:active {
+    text-decoration: underline;
+	color: #45a049;
+}
+
+input[type="text"], input[type="password"], select {
+	color: blue;
+}
+
+/*showcart.php submit mark-up*/
+.submitOne {  	
+    background-color: blue;
+	font-size: 18px;
+	position: fixed;
+	margin-left: 10%;
+    color: white;
+	margin-right: 50%;
+    padding: 14px 14px;
+    margin-left: 30%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;	
+}
+
+.submitOne:hover {
+    background-color: #45a049;
+}
+
+/*checkout.php table mark-up*/
+.submitTwo {  	
+    background-color: blue;
+	font-size: 18px;
+    color: white;
+	position: fixed;
+    padding: 14px 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;	
+}
+
+.submitTwo:hover {
+    background-color: #45a049;
+}

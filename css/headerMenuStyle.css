@@ -1,0 +1,38 @@
+/*menu style*/
+ul{
+        padding: 0;
+        list-style: none;	
+        background: #7B68EE;		
+    }
+    ul li{
+        display: inline-block;
+        position: relative;
+        line-height: 21px;	
+        text-align: left;
+		font-size:24px;
+		font-family: CaptionText;
+    }
+    ul li a{
+        display: block;
+        padding: 8px 25px;	
+        color: white;
+        text-decoration: none;
+    }
+    ul li a:hover{
+        color: red;
+        background: white;	
+    }
+    ul li ul.dropdown{
+        min-width: 100%; /* Set width of the dropdown */
+        background: #7B68EE;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+    ul li:hover ul.dropdown{
+        display: block;	/* Display the dropdown */
+    }
+    ul li ul.dropdown li{
+        display: block;
+    }

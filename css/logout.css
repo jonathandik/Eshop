@@ -1,0 +1,27 @@
+.welcome {
+    color: blue;
+}
+
+a.register:link {
+	text-decoration: none;
+}
+
+a.register:visited {
+    text-decoration: none;	
+}
+
+a.register:hover {
+    text-decoration: underline;
+	color: red;
+}
+
+a.register:active {
+    text-decoration: underline;
+	color: #45a049;
+}
+
+.login {
+	font-size:16;
+	color: blue;
+	margin-left:17%;		
+}

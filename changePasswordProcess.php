@@ -146,7 +146,7 @@
 
 		if ($hashedPW==$row['PASS']) {
 			if ($row['EMAIL'] == $email && $row['PASS']==$hashedPW && $newPassword==$confirmPassword) {
-				$salt2=bin2hex(mcrypt_create_iv(32,MCRYPT_DEV_URANDOM));
+				$salt2=bin2hex(random_bytes(32));
 				$saltedPW2=$newPassword . $salt2;
 				$hashedPW2 = hash('sha256', $saltedPW2);
 				$sql = "UPDATE users SET PASS='$hashedPW2', SALT='$salt2' WHERE EMAIL='$email'";

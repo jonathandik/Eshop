@@ -229,7 +229,7 @@
 		$escapedPW=mysqli_real_escape_string($conn,$_POST['password']); 
 		/*hash and salt are used for more security,this combination 
 		 is considered more effective than md5() against mysql injection.*/
-		$salt=bin2hex(mcrypt_create_iv(32,MCRYPT_DEV_URANDOM));
+		$salt=bin2hex(random_bytes(32));
 		$saltedPW=$escapedPW . $salt;
 		$hashedPW = hash('sha256', $saltedPW);
 		$confirmpassword=$_POST['confirmpassword'];        
